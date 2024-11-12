@@ -18,6 +18,7 @@ public class PersonVO implements Serializable {
     private String firstName;
     @JsonProperty("last_name")
     private String lastName;
+    @JsonIgnore
     private String address;
     @JsonIgnore//omite o campo na requisição http
     private String gender;
